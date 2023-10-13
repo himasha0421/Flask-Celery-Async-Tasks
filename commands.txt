@@ -1,0 +1,2 @@
+start celery worker : celery -A run.celery worker --loglevel=info
+start flask app :     flask --app run run --host 0.0.0.0
